@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_plant_app/constants.dart';
+import 'package:flutter_plant_app/screens/home/components/title_with_more_button.dart';
 
 import 'header_with_search_box.dart';
 
@@ -13,6 +15,7 @@ class Body extends StatelessWidget {
       child: Column(
         children: [
           HeaderWithSearchBox(size: size),
+          TitleWithMoreButton(title: 'Recommended', onPressed: () {}),
         ],
       ),
     );
